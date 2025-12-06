@@ -43,7 +43,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
       <div className="w-full flex justify-around items-center">
         <div className="">
           <h2 className="card-title">Name: {name}</h2>
-          <p>Suppler:{supplier}</p>
+          <p>Suppler: {supplier}</p>
           <p>Price: {price}</p>
         </div>
         <div className="card-actions ">
